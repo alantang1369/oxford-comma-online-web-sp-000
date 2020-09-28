@@ -8,7 +8,7 @@ def oxford_comma(array)
       array.each_with_index do |elt, index|
         if index < array.length - 1 
           string << "#{elt}, "
-        elsif
+        else
           string << "and #{array.last}"
         end
       end  
